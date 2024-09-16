@@ -1,0 +1,46 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "fakehashfordemopurposesonly"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "requests": {
+            "version": "==2.25.1",
+            "hashes": [
+                "sha256:hash-for-requests-2.25.1"
+            ]
+        },
+        "flask": {
+            "version": "==2.0.2",
+            "hashes": [
+                "sha256:hash-for-flask"
+            ]
+        }
+    },
+    "develop": {
+        "requests": {
+            "version": "==2.23.0",
+            "hashes": [
+                "sha256:hash-for-requests-2.23.0"
+            ]
+        },
+        "pytest": {
+            "version": "==6.2.4",
+            "hashes": [
+                "sha256:hash-for-pytest"
+            ]
+        }
+    }
+}
